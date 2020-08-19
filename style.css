@@ -9,9 +9,13 @@ body {
   min-width: 100%;
   background: linear-gradient(pink, violet);
 }
-
-button {
+#button {
   font-size: 7px;
+  display: inline-block;
+}
+
+ul {
+  display: inline-block;
 }
 
 #main-content {
@@ -34,4 +38,5 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+  display: inline-block;
 }
